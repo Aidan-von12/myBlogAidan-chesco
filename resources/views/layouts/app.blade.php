@@ -9,7 +9,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>AidanVon Blog</title>
-    
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 
     <!-- Scripts -->
@@ -19,9 +19,9 @@
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
 </head>
 
-<body class="bg-gray-100 h-screen antialiased leading-none font-sans">
+<body class="bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500 h-screen antialiased leading-none font-sans">
     <div id="app">
-        <header class="bg-gray-900 py-6">
+        <header class="bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500 py-6">
             <div class="container mx-auto flex justify-between items-center px-6">
                 <div>
                     <a href="{{ url('/') }}" class="text-lg font-semibold          text-gray-100 no-underline">
