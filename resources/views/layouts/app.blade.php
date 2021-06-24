@@ -19,16 +19,19 @@
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
 </head>
 
-<body class="bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500 h-screen antialiased leading-none font-sans">
+<body class=" h-screen antialiased leading-none font-sans">
+    <script src="{{ asset('js/nav.js') }}"></script>
     <div id="app">
         <header class="bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500 py-6">
             <div class="container mx-auto flex justify-between items-center px-6">
                 <div>
-                    <a href="{{ url('/') }}" class="text-lg font-semibold          text-gray-100 no-underline">
+                    <a href="{{ url('/') }}" class="text-lg font-semibold text-black-800 no-underline">
                         {{( 'AidanVon Blog') }}
                     </a>
                 </div>
-                <nav class="space-x-4 text-gray-300 text-sm sm:text-base">
+                <nav class="space-x-4 text-black-300 font-semibold text-sm sm:text-base">
+                    <div>
+                    <div class="hidden md:flex items-center space-x-1">
                     <a class="no-underline hover:underline" href="/">Home</a>
                     <a class="no-underline hover:underline" href="/blog">Blog</a>
                     @guest
@@ -45,7 +48,26 @@
                         {{ csrf_field() }}
                     </form>
                     @endguest
+                    </div>
+                    <!-- mobile button goes here -->
+                      <div class="md:hidden flex items-center">
+                          <button class="mobile-menu-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd"
+                                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                                clip-rule="evenodd" />
+                        </svg>
+                        </button>
+                      </div>
+                   </div>
+
                 </nav>
+
+            </div>
+            <!--mobile menu -->
+            <div class="mobile-menu hidden md:hidden">
+                <a class="no-underline hover:underline block py-2 px-4" href="/">Home</a>
+                <a class="no-underline hover:underline block py-2 px-4" href="/blog">Blog</a>
             </div>
         </header>
 
@@ -56,6 +78,7 @@
             @include('layouts.footer')
         </div>
     </div>
+
 </body>
 
 </html>

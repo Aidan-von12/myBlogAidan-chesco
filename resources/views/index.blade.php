@@ -70,7 +70,7 @@ w-4/5 block text-center">
  <div class="flex mb-2 items-center justify-between">
      <div>
          <span class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full bg-green-200 text-green-500">
-             CSS
+            tailwind CSS
          </span>
      </div>
      <div class="text-right">

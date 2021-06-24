@@ -2,7 +2,7 @@
     <div class="sm:grid grid-cols-3 w-25 w-4/5 pb-10 m-auto border-b-2 border-gray-700">
         <div>
             <h3 class="text-l sm:font-bold text-gray-100">
-            page
+            Home
             </h3>
             <ul class="py-4 sm:text-s pt-4 text-gray-400 ">
                 <li class="pb-1">
@@ -28,9 +28,6 @@
             Find us
             </h3>
             <ul class="py-4 sm:text-s pt-4 text-gray-400 ">
-                <li class="pb-1">
-                    <a href="/">What we do</a>
-                </li>
 
                 <li class="pb-1">
                     <a href="/">Address</a>
@@ -42,7 +39,7 @@
 
                 <li class="pb-1">
                     <a href="/">Contact</a>
-                    <i class="far fa-user"></i>
+
                 </li>
             </ul>
         </div>
