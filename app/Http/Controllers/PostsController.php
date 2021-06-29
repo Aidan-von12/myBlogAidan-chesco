@@ -24,6 +24,7 @@ class PostsController extends Controller
     {
         //
         return view('blog.index')->with('posts', Posts::orderBy('updated_at', 'DESC')->get() );
+
     }
 
     /**
@@ -35,6 +36,7 @@ class PostsController extends Controller
     {
         //
         return view('blog.create');
+
     }
 
     /**
@@ -135,4 +137,10 @@ class PostsController extends Controller
 
         return redirect('/blog')->with('message', 'your post has delete');
     }
+
+    public function about()
+    {
+        return view('about');
+    }
+
 }

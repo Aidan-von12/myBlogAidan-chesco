@@ -21,6 +21,8 @@ use Illuminate\Support\Facades\App;
 
 Route::get("/",[PagesController::class,"index"]);
 Route::resource('/blog',PostsController::class);
+Route::get('/about',[PagesController::class,"aboutus"]);
+
 
  Auth::routes();
 

@@ -13,7 +13,7 @@
         </div>
         <div>
             <h3 class="text-l sm:font-bold text-gray-100">
-                <a href="#">About us</a>
+                <a href="/about">About me</a>
             </h3>
         </div>
         <div >
@@ -49,6 +49,12 @@
                                 </a>
                             </div>
 
+                            <div class=" flex sm:justify-center">
+                                <a href="linkedin.com/in/aidan-chesco-35a01917a"
+                                    class="w-8 h-8 border border-2 border-gray-400  rounded-full text-center py-1 ml-2 text-gray-600 hover:text-white hover:bg-blue-400 hover:border-blue-400">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </div>
                     </div>
                 </ul>
 
