@@ -114,7 +114,7 @@ w-4/5 block text-center">
         <div>
             <span
                 class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full bg-green-200 text-green-500">
-                ui design
+                ui/ux design
             </span>
         </div>
         <div class="text-right">
@@ -183,7 +183,7 @@ w-4/5 block text-center">
     i'm an expert in ...
   </h2>
   <span class="text-extrabold block text-4xl py-1">
-    UI Design
+    UI/UX Design
   </span>
   <span class="text-extrabold block text-4xl py-1">
     web Development
@@ -195,7 +195,7 @@ w-4/5 block text-center">
     Database Adminstrator
   </span>
   <span class="text-extrabold block text-4xl py-1">
-    Backend Development
+    front-end Development
   </span>
 </div>
 

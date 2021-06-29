@@ -1,70 +1,58 @@
-<footer class="bg-gray-800 py-20 mt-20">
-    <div class="sm:grid grid-cols-3 w-25 w-4/5 pb-10 m-auto border-b-2 border-gray-700">
+<footer class="bg-gray-800 py-20 mt-20 space-x-4">
+    <div class="sm:grid grid-cols-4 w-25 w-4/5 pb-10 m-auto border-b-2 border-gray-700">
         <div>
             <h3 class="text-l sm:font-bold text-gray-100">
-            Home
+                <a href="/">Home</a>
             </h3>
-            <ul class="py-4 sm:text-s pt-4 text-gray-400 ">
-                <li class="pb-1">
-                    <a href="/">Home</a>
-                </li>
-
-                <li class="pb-1">
-                    <a href="/blog">Blog</a>
-                </li>
-
-                <li class="pb-1">
-                    <a href="/login">Login</a>
-                </li>
-
-                <li class="pb-1">
-                    <a href="/register">Register</a>
-                </li>
-            </ul>
         </div>
 
         <div>
             <h3 class="text-l sm:font-bold text-gray-100">
-            Find us
+            <a href="/blog">Blog</a>
             </h3>
-            <ul class="py-4 sm:text-s pt-4 text-gray-400 ">
-
-                <li class="pb-1">
-                    <a href="/">Address</a>
-                </li>
-
-                <li class="pb-1">
-                    <a href="/">phone</a>
-                </li>
-
-                <li class="pb-1">
-                    <a href="/">Contact</a>
-
-                </li>
-            </ul>
         </div>
-
-
         <div>
-            <h3 class="text-l sm:font-bold text-gray-100">Latest posts</h3>
-            <ul class="py-4 sm:text-s pt-4 text-gray-400 ">
-                <li class="pb-1">
-                    <a href="/">Why we love tech</a>
-                </li>
+            <h3 class="text-l sm:font-bold text-gray-100">
+                <a href="#">About us</a>
+            </h3>
+        </div>
+        <div >
+            <h3 class="text-l sm:font-bold text-gray-100">
+                stay connected
+            </h3>
+                <ul>
+                    <div class="flex flex-nowrap h-3 w-3 py-4 ">
+                        <div class="flex sm:justify-center">
+                            <a href=""
+                                class="w-8 h-8 border border-2 border-gray-400  rounded-full text-center py-1 text-gray-600 hover:text-white hover:bg-blue-600 hover:border-blue-600">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                        </div>
 
-                <li class="pb-1">
-                    <a href="/">Why we love design</a>
-                </li>
+                        <div class=" flex sm:justify-center h-3">
+                           <a href=""
+                            class="w-8 h-8 border border-2 border-gray-400  rounded-full text-center py-1 ml-2 text-gray-600 hover:text-white hover:bg-blue-400 hover:border-blue-400">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        </div>
+                           <div class=" flex sm:justify-center">
+                                <a href=""
+                                    class="w-8 h-8 border border-2 border-gray-400  rounded-full text-center py-1 ml-2 text-gray-600 hover:text-white hover:bg-pink-400 hover:border-white-400">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                           </div>
 
-                <li class="pb-1">
-                    <a href="/">Why to use laravel</a>
-                </li>
+                           <div class=" flex sm:justify-center">
+                                <a href=""
+                                    class="w-8 h-8 border border-2 border-gray-400  rounded-full text-center py-1 ml-2 text-gray-600 hover:text-white hover:bg-black-400 hover:border-black-400">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
 
-                <li class="pb-1">
-                    <a href="/">Why php is best</a>
-                    <i class="lg:text-gray-300 text-gray-500 fab fa-twitter text-lg leading-lg "></i>
-                </li>
-            </ul>
+                    </div>
+                </ul>
+
+
         </div>
 
     </div>

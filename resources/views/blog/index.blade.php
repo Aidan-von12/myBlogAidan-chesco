@@ -53,7 +53,7 @@ Create post
     @if(isset(Auth::user()->id) && auth::user()->id == $Posts->user_id )
     <span class="float-right">
     <a href="/blog/{{$Posts->slug}}/edit"
-    class="text-gray-700 italic hover:text-gray-900 pb-1 border-b-2 py-3 px-5 rounded-3xl">
+    class="text-gray-700 italic bg-blue-400 hover:text-gray-900 pb-1 border-b-2 py-3 px-5 rounded-3xl">
          Edit
     </a>
     </span>

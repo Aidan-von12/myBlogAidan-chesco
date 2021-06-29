@@ -14,13 +14,13 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
-
+    <script src="{{  asset('js/nav.js') }}"></script>
     <!-- Styles -->
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
 </head>
 
 <body class=" h-screen antialiased leading-none font-sans">
-    <script src="{{ asset('js/nav.js') }}"></script>
+
     <div id="app">
         <header class="bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500 py-6">
             <div class="container mx-auto flex justify-between items-center px-6">
@@ -31,7 +31,7 @@
                 </div>
                 <nav class="space-x-4 text-black-300 font-semibold text-sm sm:text-base">
                     <div>
-                    <div class="hidden md:flex items-center space-x-1">
+                    <div class="hidden md:flex items-center space-x-4">
                     <a class="no-underline hover:underline" href="/">Home</a>
                     <a class="no-underline hover:underline" href="/blog">Blog</a>
                     @guest
